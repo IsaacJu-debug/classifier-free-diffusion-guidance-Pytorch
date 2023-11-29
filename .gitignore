@@ -1,0 +1,11 @@
+/python_scripts/__pycache__/
+/colab_notebook/.ipynb_checkpoints/
+/python_scripts/.ipynb_checkpoints/
+/.ipynb_checkpoints/
+/postprocess/.ipynb_checkpoints/
+.DS_Store
+/python_scripts/.DS_Store
+.idea
+*~
+/__pycache__/
+/dataset/
