@@ -1,3 +1,4 @@
+from torch import Tensor
 from torchvision import transforms
 from torch.utils.data import DataLoader
 from torchvision.datasets import CIFAR10
