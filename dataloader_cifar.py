@@ -10,7 +10,7 @@ def load_data(batchsize:int, numworkers:int) -> tuple[DataLoader, DistributedSam
             transforms.Normalize((0.5, 0.5, 0.5), (0.5, 0.5, 0.5)),
         ])
     data_train = CIFAR10(
-                        root = './',
+                        root = './dataset',
                         train = True,
                         download = False,
                         transform = trans
